@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-webdev-capstone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/schalkneethling/intro-to-webdev-capstone.git",
+  "author": "Schalk Neethling <sneethling@mozilla.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.3",
+    "prettier": "^2.4.1",
+    "stylelint": "^14.1.0",
+    "stylelint-a11y": "^1.2.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-prettier": "^2.0.0"
+  }
+}
