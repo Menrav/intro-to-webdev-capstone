@@ -22,6 +22,15 @@ Open you `index.html` file in the browser by right-clicking on it in the file ex
 
 You can find the reference design and layout here: https://www.figma.com/file/k64FxGo7VHfnpQDXYZMGnQ/Landing-Page?node-id=1%3A3
 
+## Curriculum
+
+- [GitHub and Netlify](https://schalkneethling.com/git-github-netlify/)
+- [Building the header](https://schalkneethling.com/building-the-header/)
+- [Adding logo, navigation, and search](https://schalkneethling.com/adding-logo-navigation-search/)
+- [Improving the responsiveness of the header](https://schalkneethling.com/improving-the-responsiveness-of-the-header/)
+- [Flexbox fundamentals](https://schalkneethling.com/flexbox-fundamentals/)
+- [More Flexbox - Coming soon]
+
 ### Kudos
 
 Thank you to [Andy Bell](https://twitter.com/piccalilli_) for the [modern CSS reset](https://piccalil.li/blog/a-modern-css-reset/) used in this project.
