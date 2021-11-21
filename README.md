@@ -21,3 +21,7 @@ Open you `index.html` file in the browser by right-clicking on it in the file ex
 ## The Capstone Project
 
 You can find the reference design and layout here: https://www.figma.com/file/k64FxGo7VHfnpQDXYZMGnQ/Landing-Page?node-id=1%3A3
+
+### Kudos
+
+Thank you to [Andy Bell](https://twitter.com/piccalilli_) for the [modern CSS reset](https://piccalil.li/blog/a-modern-css-reset/) used in this project.
