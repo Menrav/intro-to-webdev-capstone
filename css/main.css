@@ -1,6 +1,5 @@
 body {
   font: 100%;
-  background: url(/media/character.svg) no-repeat 95% 100%/20%;
 }
 
 a {
@@ -105,13 +104,15 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  margin-bottom: 8rem;
+  padding-bottom: 10%;
+  background: transparent url(/media/character.svg) no-repeat 95% 99.5%/18%;
 }
 
 .websites-i-worked-on {
   display: flex;
   flex-flow: column;
   padding: 0;
+  background: transparent;
 }
 
 .websites-i-worked-on img {
@@ -125,6 +126,10 @@ h1 {
   justify-content: flex-start;
 }
 
+.contact-info a {
+  color: white;
+}
+
 .websites-i-worked-on a:link,
 .websites-i-worked-on a:visited {
   background: lightseagreen;
@@ -134,10 +139,61 @@ h1 {
   justify-content: center;
   color: black;
   font-size: 1.2rem;
-  margin-top: 1rem;
+}
+
+.contact-me-section {
+  color: white;
+  background-color: black;
+  box-shadow: #fdffb4 0 -1rem 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-bottom-of-portfolio {
+  max-width: 20%;
+}
+
+.contact-me-section img {
+  height: 1.5rem;
+}
+
+.contact-me-section h1 {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contact-info {
+  display: flex;
+  flex: 30%;
+  justify-content: center;
+  padding: 0;
+  margin: 0.5rem;
 }
 
 @media screen and (min-width: 48em) {
+  .portfolio-section {
+    justify-content: center;
+  }
+
+  .portfolio-section h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .websites-i-worked-on {
+    flex: 33%;
+    max-width: 33%;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .first-section-intro {
+    background: no-repeat url(../media/masthead.svg) cover;
+    background-size: 100%;
+  }
+
   .Work {
     display: flex;
     padding: 0;
@@ -159,5 +215,20 @@ h1 {
 
   .work-exp-section h1 {
     text-align: center;
+  }
+
+  .contact-me-section h1 {
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .contact-info {
+    display: flex;
+    flex: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0.5rem;
   }
 }
